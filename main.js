@@ -1,0 +1,1 @@
+alert('copperfield es maricón');
