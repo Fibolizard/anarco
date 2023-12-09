@@ -1,0 +1,41 @@
+body{
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ color: #BCCED7;
+ font-family: monospace;
+ margin: 0;
+  
+  
+}
+.caret {
+  animation: blink-caret 0.75s infinite;
+}
+.container{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  
+  
+}
+.container h1{
+ margin: 0;
+ white-space: nowrap;
+ overflow: hidden;
+ animation: type 4s steps(50, end);
+  
+  
+}
+@keyframes type{
+  0%{
+  width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+  
+  
+}
